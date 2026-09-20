@@ -1,0 +1,17 @@
+[package]
+name        = "kn9t-anthropic"
+version     = "0.1.0"
+edition     = "2021"
+description = "Anthropic Messages API provider as a kn9t plugin"
+
+[workspace]
+
+[[bin]]
+name = "kn9t-anthropic"
+path = "src/main.rs"
+
+[dependencies]
+kn9t-plugin-sdk = { path = "../../crates/kn9t-plugin-sdk" }
+serde = { version = "1", features = ["derive"] }
+serde_json       = "1"
+ureq             = { version = "2", features = ["tls"] }

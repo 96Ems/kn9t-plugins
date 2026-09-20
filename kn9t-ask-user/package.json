@@ -1,0 +1,10 @@
+{
+  "name": "kn9t-ask-user",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Reference plugin: ask_user built entirely on the generic host_api interaction primitive — no built-in, no host special-case. Demonstrates opaque payload → TUI generic renderer → POST /ui-respond → unblock.",
+  "scripts": { "build": "tsc", "start": "node dist/main.js" },
+  "dependencies": {},
+  "devDependencies": { "@types/node": "^22.0.0", "typescript": "^5.6.0" }
+}

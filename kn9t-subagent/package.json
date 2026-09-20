@@ -1,0 +1,15 @@
+{
+  "name": "kn9t-subagent",
+  "version": "0.1.0",
+  "description": "Spawn sub-agent sessions using kn9t primitives",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "test": "npm run build && node test/simulate.mjs"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  }
+}

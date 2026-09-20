@@ -1,0 +1,19 @@
+{
+  "name": "kn9t-compactor",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "kn9t compaction plugin: an agent-style compactor that picks keep/summarize/drop per tool CallId and writes the summary — powered by the kn9t host API (host_api capability), so it uses the session's own model, credentials and usage accounting.",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/main.js",
+    "test": "npm run build && node test/simulate.mjs"
+  },
+  "dependencies": {
+    "effect": "^3.14.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.6.0"
+  }
+}

@@ -1,0 +1,9 @@
+[project]
+name = "kn9t-policy"
+version = "0.1.0"
+description = "kn9t policy plugin - intercepts tool calls for approval"
+requires-python = ">=3.10"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
